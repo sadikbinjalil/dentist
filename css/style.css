@@ -1,0 +1,981 @@
+/*
+*
+* ------------------------------------------------------------------
+*
+* Project: Dentistry - Responsive HTML5 Template
+* Version: 1.0
+* Created : 05/06/2018
+* Template URI: http://freelancerlabbd.com/dentist
+* Author Name: Freelancer Lab
+* Author URI: http://freelancerlabbd.com/
+* Description: Responsive HTML5 Template
+* Developer: Dipto Roy
+*
+* -------------------------------------------------------------------
+*
+
+
+
+
+
+***====================================
+=          Table Of Contents          =
+====================================***
+
+    01. Theme Reset CSS
+
+    02. Homepage
+        2.1 - Header
+        2.2 - Custom Navigation
+        2.3 - Heading Section
+        2.4 - About Section
+        2.5 - Service Section
+        2.6 - Team Section
+        2.7 - Counter Section
+        2.8 - Testimonial Section
+        2.9 - Blog Section
+        2.10- Footer
+        2.11- Scroll To Top
+
+    03. WhyUs Page
+        3.1 - Why Us Section
+        3.2 - Partner Section
+        3.3 - Schedule Section
+
+    04. Service Page
+        4.1 - 1st Service Section
+        4.2 - 2nd Service Section
+        4.3 - 3rd Service Section
+
+    05. Contact Page
+        5.1 - Contact Section
+        5.2 - Google Map Section
+
+
+***===================================*/
+
+/*=====================================
+=               Fonts                 =
+=====================================*/
+
+@import url("../font/Proxima Nova Bold.ttf");
+@import url("../font/Proxima Nova Regular.ttf");
+
+
+
+
+/*=====================================
+=         01. Theme Reset CSS         =
+=====================================*/
+
+* {
+    outline: none !important;
+}
+
+body {
+    background-color: #FFF9F9;
+}
+
+body,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    font-family: 'Proxima Nova' !important;
+}
+
+p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #71848D !important;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    outline: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.container-fluid {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    top: 20px;
+    position: relative;
+}
+
+/* Owl Carousel */
+
+.owl-item {
+    float: left;
+}
+
+.owl-stage-outer {
+    overflow: hidden;
+}
+
+.owl-nav {
+    display: none;
+}
+
+.btn {
+    border-radius: .45rem !important;
+}
+
+
+
+/*=====================================
+=            02. Header               =
+=====================================*/
+
+/*========== 2.1 - Header ==========*/
+
+header {
+    display: block;
+    clear: both;
+}
+
+
+
+
+/*===== 2.2 - Custom Navigation =====*/
+
+.navbar-brand,
+.navbar-text {
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar-text a:hover {
+    text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #000;
+}
+
+.navbar-brand {
+    margin: 0 !important;
+}
+
+.navbar-nav li {
+    margin-right: 50px;
+}
+
+.nav-link {
+    font-size: 17px;
+}
+
+.btn-outline-info {
+    color: #629da3 !important;
+    border-color: #629da3 !important;
+}
+
+.btn-outline-info:hover {
+    color: #fff !important;
+}
+
+.nav-item:last-child {
+    margin-right: 0 !important;
+}
+
+.effect a {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+}
+
+.effect a:hover {
+    color: #fff;
+    text-decoration: none !important;
+}
+
+.effect a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    margin-bottom: 0px;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background: rgba(76, 76, 76, 1);
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out, width 2s;
+    transition: all 0.3s ease-in-out, width 2s;
+
+}
+
+.effect a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+
+
+
+/*===== 2.3 - Heading Section =====*/
+
+.heading_section {
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    clear: both;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.heading_section .video-btn {
+    border-radius: 50% !important;
+    padding: 4% 2%;
+    background-color: #17a2b8;
+    box-shadow: 3px 3px 20px #BFB8B8;
+}
+
+.title {
+    font-weight: bold;
+    color: #022838;
+}
+
+.sub_title {
+    color: #1E7F86;
+    margin: 30px auto;
+    color: #439298;
+}
+
+.video {
+    margin-top: 50px;
+    color: #173746;
+    display: inline-block;
+}
+
+.hero_img {
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+.details {
+    margin: 50px auto 0;
+}
+
+.details h2 {
+    margin: 0 auto 10px;
+}
+
+.name {
+    color: #3B3939;
+    font-weight: bold;
+}
+
+.details .btn.btn-outline-info {
+    padding: 7px 34px;
+    margin-top: 20px;
+}
+
+
+
+
+/*===== 2.4 - About Section =====*/
+
+.about_section {
+    background-image: url(../img/about.png);
+    background-size: cover;
+}
+
+.about_section {
+    margin: 120px auto;
+    position: relative;
+}
+
+.slider_img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-position: center;
+}
+
+/*owl-single-carousel*/
+
+.owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+}
+
+.home_slider .owl-dots {
+    text-align: center;
+    margin-top: 50px !important;
+}
+
+
+.team_section .owl-dots {
+    margin-top: 80px !important;
+}
+
+.owl-dots .owl-dot.active span,
+.owl-dots .owl-dot:hover span {
+    background: #869791;
+}
+
+.owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #D6D6D6;
+    display: block;
+    -webkit-backface-visibility: visible;
+    -webkit-transition: opacity .2s ease;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+
+.owl-item {
+    float: left;
+}
+
+.owl-stage-outer {
+    overflow: hidden;
+}
+
+.owl-theme .owl-nav [class*="owl-"] {
+    background: #869791 !important;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+    background: #BAE2C2 !important;
+    color: green !important;
+    border: 1px solid black;
+}
+
+
+
+
+/*===== 2.5 - Service Section =====*/
+
+.service_section {
+    margin: 120px auto;
+    padding: 80px;
+}
+
+.service_section {
+    background-image: url(../img/service.png);
+    background-size: cover;
+}
+
+.service_section h5 {
+    margin: 15px auto;
+}
+
+
+
+
+/*===== 2.6 - Team Section =====*/
+
+.team_section {
+    background-image: url(../img/team.png);
+    background-position: top;
+    padding-top: 100px;
+}
+
+.lead {
+    margin: 10px auto;
+    font-size: 19.2px !important;
+    font-size: 19.2px !important;
+    font-size: 1.2rem !important;
+}
+
+.social-btn li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.social-btn {
+    padding: 0;
+}
+
+.item .img-fluid {
+    height: 200px;
+    margin-bottom: 40px !important;
+    width: auto;
+}
+
+/* Owl Slide*/
+
+.owl-carousel .owl-item img {
+    display: block;
+    margin: 0 auto;
+}
+
+.owl-nav {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 40%;
+    width: 100%;
+    -webkit-transform: scale(.95);
+    transform: scale(.95);
+}
+
+.owl-nav:hover {
+    cursor: crosshair;
+}
+
+.owl-next {
+    color: #000;
+    float: right;
+    font-size: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 30px;
+    padding-right: 15px;
+    text-align: center;
+    width: 40px;
+}
+
+.owl-prev {
+    color: #000;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    float: left;
+    font-size: 20px;
+    height: 30px;
+    padding-left: 15px;
+    text-align: center;
+    width: 40px;
+}
+
+.owl-dots .owl-dot.active span,
+.owl-dots .owl-dot:hover span {
+    background: #007078 !important;
+}
+
+.owl-dots .owl-dot span {
+    background: #B6D2D4 !important;
+}
+
+
+
+/*===== 2.7 - Counter Section =====*/
+
+.counter_section {
+    margin: 120px auto;
+}
+
+.work img {
+    padding: 30px;
+    background-color: white;
+}
+
+.work {
+    text-align: center;
+}
+
+.work:hover img {
+    -webkit-transform: scale(.8);
+    transform: scale(.8);
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+}
+
+.counter_section {
+    padding: 40px 0;
+}
+
+.counter_section img {
+    background-color: white;
+    padding: 30px;
+    float: left;
+}
+
+.counter {
+    float: left;
+    margin: 25px 0 0 30px;
+}
+
+
+
+
+/*===== 2.8 - Testimonial Section =====*/
+
+.testimonial-title {
+    background-color: #629DA3;
+}
+
+.testimonial-title {
+    background-color: #629DA3;
+    padding: 60px 0 60px 100px;
+    border-radius: 0 80px 80px 0;
+    color: white;
+}
+
+.testimonial-title h4 {
+    color: white !important;
+}
+
+.testimonial-title p {
+    color: white !important;
+    opacity: 0.9;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+
+.testimonial-carousel .owl-nav {
+    display: block;
+}
+
+.testimonial-carousel .owl-item {
+    visibility: hidden;
+}
+
+.testimonial-carousel .owl-item.active {
+    visibility: visible;
+}
+
+.testimonial_section {
+    margin: 120px auto;
+}
+
+.testimonial .description {
+    background: #BAE2C2;
+    border-radius: 6px;
+    color: #333333;
+    font-size: 14px;
+    font-style: italic;
+    position: relative;
+    padding: 80px;
+    border-radius: 80px 0 0 80px;
+}
+
+.testimonial .description:before {
+    content: url("../img/quote.png");
+    position: absolute;
+    top: 0px !important;
+}
+
+.testimonial .description:after {
+    content: url("../img/quote-right.png");
+    position: absolute;
+    bottom: 0px !important;
+    right: 75px !important;
+}
+
+
+
+
+
+/*===== 2.9 - Blog Section =====*/
+
+.blog_section {
+    margin: 120px auto;
+}
+
+.blog_content {
+    margin: 80px 0;
+}
+
+.blog-sec > .col-md-6 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.blog-sec .blog1 {
+    padding-left: 50px !important;
+    padding-top: 50px;
+}
+
+.blog-sec .blog2 {
+    padding-right: 50px !important;
+    text-align: right;
+    padding-top: 50px;
+}
+
+.about_content p {
+    margin: 40px auto;
+}
+
+
+
+
+
+/*===== 2.10 - Footer =====*/
+
+footer {
+    margin: 0 !important;
+    background-color: #022838;
+    color: #4C726F;
+    padding: 80px 0 50px;
+}
+
+.foot-title {
+    color: white;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.foot-nav {
+    padding: 0;
+}
+
+.foot-nav li {
+    list-style-type: none;
+    margin-bottom: 20px;
+    color: #677C85;
+}
+
+.foot-nav li a {
+    color: #677C85 !important;
+}
+
+.foot-nav li:hover {
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+    padding-left: 5px;
+}
+
+.foot-nav li:hover a {
+    color: white !important;
+    text-decoration: none;
+}
+
+.footer .address {
+    color: #617781;
+}
+
+.footer .address i {
+    margin-right: 18px;
+    color: #AFB7BC;
+}
+
+.footer .social-btn i {
+    color: white;
+    margin-right: 15px;
+}
+
+footer .btn.btn-info {
+    margin: 15px 0;
+}
+
+footer .btn.btn-info:hover {
+    color: white;
+    background-color: #629DA3;
+}
+
+footer .lead {
+    margin: 30px auto 0;
+    font-size: 19.2px !important;
+    font-size: 19.2px !important;
+    font-size: 1.2rem !important;
+    letter-spacing: 3px;
+}
+
+footer .lead a {
+    color: wheat;
+}
+
+footer .lead a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/*===== 2.11 - Scroll To Top =====*/
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #BAE2C2;
+    background: #BAE2C2;
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    border-radius: 35px;
+    -webkit-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top i {
+    color: green;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top:hover {
+    background: #629DA3;
+}
+
+#return-to-top:hover i {
+    color: #BAE2C2;
+    top: 8px;
+}
+
+
+
+
+
+/*=====================================
+=          03. WhyUs Page             =
+=====================================*/
+
+/*========== 3.1 - Why Us Section ==========*/
+
+.whyus-content {
+    margin: 120px auto;
+}
+
+.whyus1-img {
+    padding: 0 0 !important;
+}
+
+.whyus1 {
+    padding: 0 50px 0 120px !important;
+}
+
+.whyus1 p {
+    font-size: 16px;
+    line-height: 32px;
+    color: #71848D;
+}
+
+.whyus2 {
+    padding: 0 0 !important;
+}
+
+.whyus2-content p {
+    font-size: 16px !important;
+    line-height: 32px !important;
+    color: #71848D !important;
+}
+
+.whyus2-content {
+    padding: 0 50px;
+}
+
+
+
+/*========== 3.2 - Partner Section ==========*/
+
+.partner_section {
+    margin: 120px 0;
+}
+
+.partner .col-md-6 img {
+    border: 1px solid transparent;
+    padding: 20px;
+}
+
+
+
+/*========== 3.3 - Schedule Section ==========*/
+
+.spcl-btn {
+    background-color: #BAE3C3;
+    padding: 80px 0 !important;
+}
+
+.spcl-btn h4 {
+    line-height: 35px;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #138496;
+    border-color: #138496;
+}
+
+.btn-info:hover {
+    color: black;
+    background-color: transparent;
+    border-color: #138496;
+}
+
+
+
+
+
+/*=====================================
+=          04. Service Page           =
+=====================================*/
+
+/*======= 4.1 - 1st Service Section =======*/
+
+.service-img {
+    border-radius: 80px;
+}
+
+.service_section1 {
+    margin: 120px auto;
+}
+
+.cat-ul li {
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+.cat-ul li:before {
+    content: "- ";
+}
+
+.cat-ul {
+    padding: 0;
+}
+
+.cat-ul li a {
+    border-bottom: 1px solid #C9CDD0;
+    color: #425D69;
+}
+
+.maintain-sec {
+    padding-right: 0 !important;
+}
+
+
+
+/*======= 4.2 - 2nd Service Section =======*/
+
+.enhance-sec {
+    padding-left: 0 !important;
+}
+
+
+
+/*======= 4.3 - 3rd Service Section =======*/
+
+.service_section3 {
+    margin: 120px auto;
+}
+
+
+
+
+
+
+/*=====================================
+=          05. Contact Page           =
+=====================================*/
+
+/*======= 5.1 - Contact Section =======*/
+
+.contact_section .name {
+    text-transform: uppercase !important;
+    font-weight: 300;
+}
+
+.contact-form input,
+.contact-form textarea {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    display: block;
+}
+
+.contact-form .row {
+    margin: 20px 0;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    color: black;
+    background-color: transparent;
+    border: transparent;
+    box-shadow: 0 0 !important;
+    display: block;
+}
+
+.contact-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-right: 0;
+}
+
+.contact-form .container {
+    padding-right: 0 !important;
+    margin-left: 100px;
+}
+
+.form-btn {
+    display: block;
+    margin: 0 auto;
+}
+
+.connect-left {
+    background-color: #EEF4EC;
+    padding: 40px 60px;
+    border-radius: 80px 0 0 80px;
+}
+
+.connect-right {
+    background-color: #BAE2C2;
+    padding: 80px;
+    border-radius: 80px 0 0 80px;
+}
+
+.address p {
+    margin-bottom: 0 !important;
+}
+
+.address img {
+    margin-right: 30px;
+    width: 5%;
+}
+
+.contact-footer {
+    margin: 0 !important;
+}
+
+
+/*======= 5.2 - Google Map Section =======*/
+
+.mapping {
+    margin: 120px 0 0 0;
+}

@@ -1,0 +1,398 @@
+@media only screen and (max-width: 1024px) {
+
+
+    /* Home Page */
+    .about_section {
+        background-image: none;
+    }
+
+    .service_section {
+        background-image: none;
+    }
+
+    .team_section {
+        background-image: none;
+    }
+
+    .counter_section img {
+        padding: 25px;
+    }
+
+    .testimonial-title {
+        padding: 60px 50px;
+    }
+
+    .blog-sec .blog1 {
+        padding: 30px 0 0 20px !important;
+    }
+
+    .blog-sec .blog2 {
+        padding: 20px 20px 0 0px !important;
+    }
+
+
+
+
+    /* Why Us Page */
+    .partner_section p br {
+        display: none;
+    }
+
+    .whyus1 p br {
+        display: none;
+    }
+
+    .whyus1 p {
+        line-height: 24px;
+    }
+
+    .whyus1 {
+        padding: 0 20px 0 60px !important;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    /* Navigation */
+    .navbar-nav li.nav-item {
+        margin: 0 !important;
+        text-align: center;
+    }
+
+    .navbar-collapse button {
+        display: block;
+        margin: 15px auto 0 !important;
+    }
+
+
+    /* Home Page */
+    .full-header {
+        background-image: none !important;
+    }
+
+    .about_section br {
+        display: none;
+    }
+
+    .about_section p {
+        margin: 0 0 20px 0;
+    }
+
+    .service_section {
+        padding: 0;
+    }
+
+    .team_section {
+        padding-top: 0px;
+    }
+
+    .content br {
+        display: none;
+    }
+
+    .counter_section img {
+        float: none;
+    }
+
+    .counter_section {
+        text-align: center;
+        background-repeat: no-repeat;
+    }
+
+    .counter_section {
+        padding: 0;
+    }
+
+    .testimonial .description {
+        padding: 60px 50px;
+    }
+
+    .testimonial .description:after {
+        right: 20px !important;
+    }
+
+    .blog-sec {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .blog_content {
+        margin: 0;
+    }
+
+
+    /* Why Us Page */
+    .whyus-content .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .whyus2-content p br {
+        display: none !important;
+    }
+
+    .whyus2-content p {
+        line-height: 24px !important;
+    }
+
+
+    /* Service Page */
+    .service_section1 .row .col-md-4 {
+        padding-left: 50px !important;
+    }
+
+    .service_section1 .row .col-md-4 br {
+        display: none;
+    }
+
+    .service_section2 .row .col-md-4 {
+        padding-left: 50px !important;
+    }
+
+    .service_section2 .row .col-md-4 br {
+        display: none;
+    }
+
+    .service_section3 .row .col-md-4 {
+        padding-left: 50px !important;
+    }
+
+    .service_section3 .row .col-md-4 br {
+        display: none;
+    }
+
+
+
+    /* Contact Page */
+    .connect-right {
+        padding: 50px;
+    }
+
+    .connect-left {
+        background-color: transparent;
+        padding: 0;
+        border-radius: 0;
+    }
+
+
+
+    /* Footer */
+    .footer p br {
+        display: none;
+    }
+
+    .footer .address i {
+        display: block;
+    }
+
+    footer .col-md-4,
+    footer .col-md-3,
+    footer .col-md-2 {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 425px) {
+
+    /* Home Page */
+    ol.carousel-indicators {
+        display: none;
+    }
+
+    .about_content {
+        margin-top: 20px;
+    }
+
+    .about_content p br {
+        display: none;
+    }
+
+    .service_section {
+        margin: 120px auto;
+        text-align: center !important;
+        padding: 0;
+    }
+
+    .service_section .col-md-3 {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .testimonial-carousel {
+        margin: 50px 0 0 0;
+    }
+
+    .about_content.blog2 {
+        margin-bottom: 40px;
+    }
+
+
+
+
+    /* Why Us Page */
+    .whyus-content {
+        margin: 40px auto;
+    }
+
+    .whyus2 {
+        margin-top: 20px;
+    }
+
+    .whyus2-content {
+        padding: 30px 20px;
+    }
+
+    .blog_section {
+        margin: 0px auto 80px;
+    }
+
+    .work {
+        margin-bottom: 30px;
+    }
+
+
+    /* Service Page */
+    .heading_section {
+        background-image: none !important;
+    }
+
+    .heading_section .col-md-6 {
+        padding-top: 50px !important;
+    }
+
+    .service_section {
+        margin: 30px 0 !important;
+    }
+
+    .service_section1,
+    .service_section2,
+    .service_section3 {
+        text-align: center;
+    }
+
+    .service_section1 .row .col-md-4 {
+        padding: 0 !important;
+    }
+
+    .service_section1 .row .col-md-3 {
+        padding: 0 !important;
+        margin-top: 20px;
+    }
+
+    .service_section1 .row .col-md-5 {
+        padding: 0 !important;
+    }
+
+    .service_section2 .row .col-md-4 {
+        padding: 0 !important;
+        margin-top: 20px;
+    }
+
+    .service_section2 .row .col-md-3 {
+        padding: 0 !important;
+        margin-top: 20px;
+    }
+
+    .service_section2 .row .col-md-5 {
+        padding: 0 !important;
+    }
+
+    .service_section3 .row .col-md-4 {
+        padding: 0 !important;
+    }
+
+    .service_section3 .row .col-md-3 {
+        padding: 0 !important;
+        margin-top: 20px;
+    }
+
+    .service_section3 .row .col-md-5 {
+        padding: 0 !important;
+    }
+
+    .spcl-btn h4 br {
+        display: none;
+    }
+
+
+
+    /* Service Page */
+    .contact-form .container {
+        padding: 0 !important;
+        margin-left: 0px;
+    }
+
+
+
+    /* Footer */
+    footer {
+        text-align: center;
+    }
+
+    .footer .address i {
+        margin-right: 0px;
+    }
+}
+
+
+
+@media only screen and (max-width: 375px) {
+
+    /* Home Page */
+    .test-nm {
+        right: 60px;
+    }
+
+
+    /* Why Us Page */
+    .heading_section .col-md-6 {
+        padding-top: 30px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .owl-dot {
+        margin: 0 !important;
+    }
+}
+
+
+
+@media only screen and (max-width: 320px) {
+
+
+    /* Home Page */
+    .counter_section .col-md-4 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .counter {
+        margin: 25px 0 0 10px;
+    }
+
+
+    /* Contact Page */
+    .address img {
+        margin-right: 0px;
+        width: 15%;
+    }
+
+}
